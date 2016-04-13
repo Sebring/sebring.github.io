@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://cdn.rawgit.com/Sebring/OlympicsRR/master/js/lib/crafty.js"></script>
+    <script type="text/javascript" src="https://raw.githubusercontent.com/Sebring/OlympicsRR/master/js/games/olympics/game.js"></script>
+    <script type="text/javascript" src="https://raw.githubusercontent.com/Sebring/OlympicsRR/master/js/games/olympics/components.js"></script>
+    <script type="text/javascript" src="OlympicsRR/js/games/olympics/scenes.js"></script>
+    <script>
+    	window.addEventListener('load', start);
+      function start() {
+        Crafty.init(Game.width(), Game.height());
+        Crafty.background(Game.colors.background);
+        Crafty.scene('Start');
+      }
+  	</script>
+  </head>
+  <body></body>
+</html>
