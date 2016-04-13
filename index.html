@@ -1,13 +1,49 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <title>Sebring</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   </head>
   <body>
-    <p><a href="https://rawgit.com/Sebring/OlympicsRR/master/index.html">Play OlympicsRR from git repo</a></p>
-    <p>
-      <code>Arrow-keys</code> - Control player 1<br/>
-      <code>WASD</code> - Control player 2<br/>
-      <code>U</code> - Start game, change scene<br/>
-    <code>P</code> - Pause game</p>
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-xs-12 col-md-6">
+          <br />
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h1>Olympics RR</h1>
+              <p class="lead">Remeber good ol days!</p>
+              <p>Retro Romance is a pong clone, heavily inspired by "Video Olympics" on Atari 2600. It can be played using <code>WASD</code> and arrow-keys but also gamepad. Why gamepad you say? Well so you can build your own paddle using an arduino leonardo and a pot! (<a href="http://github.com/Sebring/OlympicsRR">see github project</a>)</p>
+              <div class="row">
+                <div class="col-xs-4">
+                  <img class="thumbnail" width="120" src="olympicsRR/img/rr_tennis.png"/>
+                </div>
+                <div class="col-xs-4">
+                  <img class="thumbnail" width="120" src="olympicsRR/img/rr_hockey.png"/>
+                </div>
+                <div class="col-xs-4">
+                  <img class="thumbnail" width="120" src="olympicsRR/img/rr_basket.png"/>
+                </div>
+              </div>
+              <p><a class="btn btn-default btn-lg" href="https://rawgit.com/Sebring/OlympicsRR/master/index.html" role="button">Play!</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-md-6">
+          <br />
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h1>Random Card Puller</h1>
+              <p class="lead">A tool for Spellstone</p>
+              <p>See what you may get from those har earned shards of yours. It pulls a card at random so result in game will vary. This should be used to get an idea of possible outcome.</p>
+              <p><a class="btn btn-default btn-lg" href="https://rawgit.com/Sebring/RandomCardPuller/master/calculator.html">Go!</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
